@@ -1,0 +1,10 @@
+                precision    recall  f1-score   support
+
+          coca       0.70      0.52      0.60       180
+         ipadu       0.37      0.51      0.43        79
+novogranatense       0.27      0.38      0.32        40
+   truxillense       0.04      0.05      0.05        20
+
+      accuracy                           0.47       319
+     macro avg       0.35      0.36      0.35       319
+  weighted avg       0.53      0.47      0.48       319

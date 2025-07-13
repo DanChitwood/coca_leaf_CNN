@@ -1,0 +1,22 @@
+                        precision    recall  f1-score   support
+
+               amazona       0.00      0.00      0.00        19
+      boliviana blanca       0.00      0.00      0.00        20
+        boliviana roja       0.00      0.00      0.00        20
+              chiparra       0.00      0.00      0.00        20
+               chirosa       0.06      1.00      0.12        20
+                crespa       0.00      0.00      0.00        20
+                 dulce       0.00      0.00      0.00        20
+               gigante       0.00      0.00      0.00        20
+          guayaba roja       0.00      0.00      0.00        20
+             patirroja       0.00      0.00      0.00        20
+          peruana roja       0.00      0.00      0.00        20
+           tingo maria       0.00      0.00      0.00        20
+        tingo pajarita       0.00      0.00      0.00        20
+tingo pajarita caucana       0.00      0.00      0.00        20
+         tingo peruana       0.00      0.00      0.00        20
+   trujillense caucana       0.00      0.00      0.00        20
+
+              accuracy                           0.06       319
+             macro avg       0.00      0.06      0.01       319
+          weighted avg       0.00      0.06      0.01       319

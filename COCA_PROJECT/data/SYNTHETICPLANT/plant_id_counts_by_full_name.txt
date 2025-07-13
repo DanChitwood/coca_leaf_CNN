@@ -1,0 +1,21 @@
+Unique PlantID Counts per 'full_name':
+full_name
+amazona                   16
+boliviana blanca          19
+boliviana negra           15
+boliviana roja            19
+chiparra                  34
+chirosa                   19
+crespa                    19
+desconocido               21
+dulce                     19
+gigante                   19
+guayaba roja              19
+patirroja                 19
+peruana roja              19
+pomarosa                  15
+tingo maria               19
+tingo pajarita            13
+tingo pajarita caucana    19
+tingo peruana             19
+trujillense caucana       19
