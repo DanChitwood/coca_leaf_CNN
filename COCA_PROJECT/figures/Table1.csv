@@ -1,0 +1,23 @@
+Dataset,Class,Precision,Recall,F1
+Plowman,macro avg.,0.9773,0.9620,0.9691
+Plowman,weighted avg.,0.9648,0.9643,0.9642
+Plowman,coca,0.9545,0.9767,0.9655
+Plowman,ipadu,1.0000,1.0000,1.0000
+Plowman,novogranatense,0.9545,0.9545,0.9545
+Plowman,truxillense,1.0000,0.9167,0.9565
+Cultigens (1st),macro avg.,0.9060,0.9491,0.9250
+Cultigens (1st),weighted avg.,0.9171,0.9091,0.9101
+Cultigens (1st),coca,0.9691,0.8722,0.9181
+Cultigens (1st),ipadu,0.7935,0.9241,0.8538
+Cultigens (1st),novogranatense,0.9091,1.0000,0.9524
+Cultigens (1st),truxillense,0.9524,1.0000,0.9756
+Wildspecies,macro avg.,0.9743,0.9890,0.9814
+Wildspecies,weighted avg.,0.9820,0.9818,0.9818
+Wildspecies,coca,0.9835,0.9944,0.9890
+Wildspecies,ipadu,0.9872,0.9747,0.9809
+Wildspecies,novogranatense,1.0000,1.0000,1.0000
+Wildspecies,truxillense,0.9524,1.0000,0.9756
+Wildspecies,cataractarum,0.9734,0.9683,0.9708
+Wildspecies,foetidum,0.9556,1.0000,0.9773
+Wildspecies,gracilipes,0.9949,0.9750,0.9848
+Wildspecies,lineolatum,0.9474,1.0000,0.9730
