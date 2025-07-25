@@ -2,8 +2,57 @@
 
 ## Figures and Tables
 ![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure1.png "Figure 1")
+
 ![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure2.png "Figure 2")
+
+| Dataset         | Class          |   Precision |   Recall |     F1 |
+|:----------------|:---------------|------------:|---------:|-------:|
+| Plowman         | macro avg.     |      0.9773 |   0.962  | 0.9691 |
+| Plowman         | weighted avg.  |      0.9648 |   0.9643 | 0.9642 |
+| Plowman         | coca           |      0.9545 |   0.9767 | 0.9655 |
+| Plowman         | ipadu          |      1      |   1      | 1      |
+| Plowman         | novogranatense |      0.9545 |   0.9545 | 0.9545 |
+| Plowman         | truxillense    |      1      |   0.9167 | 0.9565 |
+| Cultigens (1st) | macro avg.     |      0.906  |   0.9491 | 0.925  |
+| Cultigens (1st) | weighted avg.  |      0.9171 |   0.9091 | 0.9101 |
+| Cultigens (1st) | coca           |      0.9691 |   0.8722 | 0.9181 |
+| Cultigens (1st) | ipadu          |      0.7935 |   0.9241 | 0.8538 |
+| Cultigens (1st) | novogranatense |      0.9091 |   1      | 0.9524 |
+| Cultigens (1st) | truxillense    |      0.9524 |   1      | 0.9756 |
+| Wildspecies     | macro avg.     |      0.9743 |   0.989  | 0.9814 |
+| Wildspecies     | weighted avg.  |      0.982  |   0.9818 | 0.9818 |
+| Wildspecies     | coca           |      0.9835 |   0.9944 | 0.989  |
+| Wildspecies     | ipadu          |      0.9872 |   0.9747 | 0.9809 |
+| Wildspecies     | novogranatense |      1      |   1      | 1      |
+| Wildspecies     | truxillense    |      0.9524 |   1      | 0.9756 |
+| Wildspecies     | cataractarum   |      0.9734 |   0.9683 | 0.9708 |
+| Wildspecies     | foetidum       |      0.9556 |   1      | 0.9773 |
+| Wildspecies     | gracilipes     |      0.9949 |   0.975  | 0.9848 |
+| Wildspecies     | lineolatum     |      0.9474 |   1      | 0.973  |
+
 ![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure3.png "Figure 3")
+
+| Class                  |   Precision 1st |   Recall 1st |   F1 1st |   Precision 2nd |   Recall 2nd |   F1 2nd |   Precision Combined |   Recall Combined |   F1 Combined |
+|:-----------------------|----------------:|-------------:|---------:|----------------:|-------------:|---------:|---------------------:|------------------:|--------------:|
+| amazona                |               1 |            1 |        1 |          0.6784 |       0.9062 |   0.7759 |               0.9108 |            0.9728 |        0.9408 |
+| boliviana blanca       |               1 |            1 |        1 |          0.8333 |       0.8385 |   0.8359 |               0.9326 |            0.9171 |        0.9248 |
+| boliviana roja         |               1 |            1 |        1 |          0.8103 |       0.5912 |   0.6836 |               0.9341 |            0.8715 |        0.9017 |
+| chiparra               |               1 |            1 |        1 |          0.9242 |       0.5382 |   0.6803 |               0.8908 |            0.8833 |        0.887  |
+| chirosa                |               1 |            1 |        1 |          0.8371 |       0.9198 |   0.8765 |               0.9405 |            0.956  |        0.9482 |
+| crespa                 |               1 |            1 |        1 |          0.9605 |       0.914  |   0.9366 |               0.9803 |            0.966  |        0.9731 |
+| dulce                  |               1 |            1 |        1 |          0.7017 |       0.8247 |   0.7582 |               0.8791 |            0.9195 |        0.8989 |
+| gigante                |               1 |            1 |        1 |          0.7865 |       0.8974 |   0.8383 |               0.9461 |            0.8977 |        0.9213 |
+| guayaba roja           |               1 |            1 |        1 |          0.8263 |       0.9079 |   0.8652 |               0.9278 |            0.9709 |        0.9489 |
+| patirroja              |               1 |            1 |        1 |          0.678  |       0.8476 |   0.7534 |               0.9247 |            0.9348 |        0.9297 |
+| peruana roja           |               1 |            1 |        1 |          0.5833 |       0.7636 |   0.6614 |               0.8168 |            0.8919 |        0.8527 |
+| tingo maria            |               1 |            1 |        1 |          0.8525 |       0.6582 |   0.7429 |               0.9701 |            0.9101 |        0.9391 |
+| tingo pajarita         |               1 |            1 |        1 |          0.8475 |       0.9615 |   0.9009 |               0.976  |            0.9839 |        0.9799 |
+| tingo pajarita caucana |               1 |            1 |        1 |          0.965  |       0.965  |   0.965  |               0.9818 |            0.9818 |        0.9818 |
+| tingo peruana          |               1 |            1 |        1 |          0.7778 |       0.7727 |   0.7752 |               0.9207 |            0.8678 |        0.8935 |
+| trujillense caucana    |               1 |            1 |        1 |          0.8089 |       0.8141 |   0.8115 |               0.9438 |            0.9545 |        0.9492 |
+| macro avg.             |               1 |            1 |        1 |          0.8045 |       0.82   |   0.8038 |               0.9298 |            0.93   |        0.9294 |
+| weighted avg.          |               1 |            1 |        1 |          0.8166 |       0.8003 |   0.7973 |               0.9278 |            0.9268 |        0.9268 |
+
 ![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure4.png "Figure 4")
 
 ## Methods  
