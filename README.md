@@ -15,3 +15,29 @@ Model training employed a 5-fold stratified cross-validation strategy. For each 
 #### Model Evaluation and Interpretability
 Model performance was evaluated on real samples using accuracy, precision, recall, and F1-score. Classification reports and confusion matrices were generated. Grad-CAM (Gradient-weighted Class Activation Mapping) visualizations were computed by targeting the final convolutional layer of a trained model (Fold 0), averaging heatmaps from 5 randomly selected real samples per class, and overlaying them onto representative ECT images to identify influential regions.
 
+
+| Dataset         | Class          |   Precision |   Recall |     F1 |
+|:----------------|:---------------|------------:|---------:|-------:|
+| Plowman         | macro avg.     |      0.9773 |   0.962  | 0.9691 |
+| Plowman         | weighted avg.  |      0.9648 |   0.9643 | 0.9642 |
+| Plowman         | coca           |      0.9545 |   0.9767 | 0.9655 |
+| Plowman         | ipadu          |      1      |   1      | 1      |
+| Plowman         | novogranatense |      0.9545 |   0.9545 | 0.9545 |
+| Plowman         | truxillense    |      1      |   0.9167 | 0.9565 |
+| Cultigens (1st) | macro avg.     |      0.906  |   0.9491 | 0.925  |
+| Cultigens (1st) | weighted avg.  |      0.9171 |   0.9091 | 0.9101 |
+| Cultigens (1st) | coca           |      0.9691 |   0.8722 | 0.9181 |
+| Cultigens (1st) | ipadu          |      0.7935 |   0.9241 | 0.8538 |
+| Cultigens (1st) | novogranatense |      0.9091 |   1      | 0.9524 |
+| Cultigens (1st) | truxillense    |      0.9524 |   1      | 0.9756 |
+| Wildspecies     | macro avg.     |      0.9743 |   0.989  | 0.9814 |
+| Wildspecies     | weighted avg.  |      0.982  |   0.9818 | 0.9818 |
+| Wildspecies     | coca           |      0.9835 |   0.9944 | 0.989  |
+| Wildspecies     | ipadu          |      0.9872 |   0.9747 | 0.9809 |
+| Wildspecies     | novogranatense |      1      |   1      | 1      |
+| Wildspecies     | truxillense    |      0.9524 |   1      | 0.9756 |
+| Wildspecies     | cataractarum   |      0.9734 |   0.9683 | 0.9708 |
+| Wildspecies     | foetidum       |      0.9556 |   1      | 0.9773 |
+| Wildspecies     | gracilipes     |      0.9949 |   0.975  | 0.9848 |
+| Wildspecies     | lineolatum     |      0.9474 |   1      | 0.973  |
+
