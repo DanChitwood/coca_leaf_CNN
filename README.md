@@ -1,10 +1,13 @@
 # Disentangling Latent Genetic and Environmental Effects on Coca Leaf Shape using Deep Learning
 
 ## Figures and Tables
-![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure1.png "Figure 1")
+![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure1.png "Figure 1")  
+**Figure 1: Morphospaces by cultivated and wild coca species.** A) Morphospace derived from historical drawings of coca leaves by Timothy Plowman. B) Morphospace derived from leaves of the first collection of the police narcotics garden. C) Morphospace derived from leaves of the first collection of the police narcotics garden combined with leaves from wild species derived from herbarium specimens. For consistency, petioles were removed from leaves in the 1st collection (A) and (B), as they were absent in the previously published wild species leaves. Eigenleaf representations from the first two principal components are shown as a grid in all morphospaces, colored by class (see legend). To the right of each morphospace, superimposed average leaf shape outlines exaggerate class-specific deviations from the overall mean by a factor of 1, colored by class (see legend).  
 
-![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure2.png "Figure 2")
+![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure2.png "Figure 2")  
+**Figure 2: Real and synthetic leaves and their Euler Characteristic Transform (ECT) representations.** For leaves from A) Plowman drawings, B) the first collection of the police narcotics garden, and C) the first collection of the police narcotics garden combined with previously published wild species (petioles removed in both cases): Left panels display Gradient-weighted Class Activation Mapping (GradCAM) heatmaps highlighting features distinguishing leaf shapes and their ECTs for their respective CNNs; middle panels show examples of real leaf shapes and their aligned radial ECT representations; right panels present examples of synthetic leaf shapes and their aligned radial ECT representations.  
 
+**Table 1: Performance metrics for predicting species classes for different datasets.**
 | Dataset         | Class          |   Precision |   Recall |     F1 |
 |:----------------|:---------------|------------:|---------:|-------:|
 | Plowman         | macro avg.     |      0.9773 |   0.962  | 0.9691 |
@@ -30,8 +33,10 @@
 | Wildspecies     | gracilipes     |      0.9949 |   0.975  | 0.9848 |
 | Wildspecies     | lineolatum     |      0.9474 |   1      | 0.973  |
 
-![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure3.png "Figure 3")
+![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure3.png "Figure 3")  
+**Figure 3: Morphospaces by cultigens.** Morphospaces derived from leaves of the A) first and B) second collections of the police narcotics garden. Eigenleaf representations from the first two principal components are shown as a grid in all morphospaces, colored by cultigen class (see legend). To the right of each morphospace, superimposed average leaf shape outlines exaggerate differences relative to the overall mean by a factor of 1, colored by cultigen class (see legend).  
 
+**Table 2: Performance metrics for predicting cultigen classes for different datasets.**
 | Class                  |   Precision 1st |   Recall 1st |   F1 1st |   Precision 2nd |   Recall 2nd |   F1 2nd |   Precision Combined |   Recall Combined |   F1 Combined |
 |:-----------------------|----------------:|-------------:|---------:|----------------:|-------------:|---------:|---------------------:|------------------:|--------------:|
 | amazona                |               1 |            1 |        1 |          0.6784 |       0.9062 |   0.7759 |               0.9108 |            0.9728 |        0.9408 |
@@ -53,7 +58,8 @@
 | macro avg.             |               1 |            1 |        1 |          0.8045 |       0.82   |   0.8038 |               0.9298 |            0.93   |        0.9294 |
 | weighted avg.          |               1 |            1 |        1 |          0.8166 |       0.8003 |   0.7973 |               0.9278 |            0.9268 |        0.9268 |
 
-![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure4.png "Figure 4")
+![alt text](https://github.com/DanChitwood/coca_leaf_CNN/blob/main/COCA_PROJECT/figures/Figure4.png "Figure 4")  
+**Figure 4: Shape differences between first and second cultigen collections.** A) Combined morphospace of leaves from the first and second cultigen collections, colored by collection. To the right, average leaf shapes from the first and second collections are shown, with differences relative to the overall mean exaggerated by a factor of 1 (see legend). B) A detailed view of the morphospace in (A), where an arrow represents each cultigen. The base of each arrow indicates the mean PCA position for the first collection, and the tip indicates the mean PCA position for the second collection. To the right, these arrows are translated to the origin to facilitate comparison of their vector directions, with the overall mean vector indicated in black. Refer to the legend for cultigen class colors.  
 
 ## Methods  
 This study employs a comprehensive computational pipeline for the morphometric analysis and image-based classification of leaf shapes, encompassing feature extraction using the Euler Characteristic Transform (ECT), synthetic data augmentation, and a custom Convolutional Neural Network (CNN) architecture. All computational steps were performed using Python (version 3.12.2) with key libraries including NumPy (version 1.26.4), Pandas (version 2.0.3), Scikit-learn (version 1.3.2), Matplotlib (version 3.10.3), Seaborn (version 0.13.2), OpenCV (version 4.10.0.84), Pillow (version 10.3.0), PyTorch (version 2.4.1), and ect (version 1.0.3). For reproducibility, a global random seed (42) was consistently applied across all random operations. All data and code necessary to reproduce these results are available at: https://github.com/DanChitwood/coca_leaf_CNN
